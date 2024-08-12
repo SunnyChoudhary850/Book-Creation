@@ -24,7 +24,7 @@ This Python script uses the power of AI to help you generate the structure and c
 3. **Run the Script**: You can run the script in your Python environment. When prompted, enter the title of your eBook.
 
     ```bash
-    python main.py
+    python app.py
     ```
 
 4. **Review the Generated Chapters**: The script will generate a list of chapters and subheadings for your eBook. If you're not satisfied with the generated chapters, you can choose to recreate them.
