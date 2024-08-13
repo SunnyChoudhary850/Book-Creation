@@ -1,7 +1,7 @@
 import json
 import google.generativeai as genai
 import ast
-genai.configure(api_key="AIzaSyBdNb4IdwYv28rXV5Wsv00X775phVmg32s")  # Replace with your gemini API key
+genai.configure(api_key="")  # Replace with your gemini API key
 AUTO_PILOT = True
 generation_config = {
   "temperature": 0.65,
