@@ -1,7 +1,7 @@
 import json
 import google.generativeai as genai
 import ast
-genai.configure(api_key="")  # Replace with your gemini API key
+genai.configure(api_key="AIzaSyBdNb4IdwYv28rXV5Wsv00X775phVmg32s")  # Replace with your gemini API key
 AUTO_PILOT = True
 generation_config = {
   "temperature": 0.65,
@@ -61,7 +61,6 @@ def Chapter_maker(title):
 
     # Attempt to strip out any non-JSON text or formatting
     try:
-        # Clean the response by removing unwanted text or formatting
         start_index = raw_response.find('{')
         end_index = raw_response.rfind('}') + 1
         cleaned_response = raw_response[start_index:end_index]
